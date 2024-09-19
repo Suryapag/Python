@@ -12,4 +12,3 @@ while low <= high:
         low = mid + 1
     elif arr[mid]>target:
         low = mid -1
-    print(mid)
